@@ -4,6 +4,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.prasanga.fdo.asteriskpatterns.Pattern2Activity">
+    tools:context="com.prasanga.fdo.asteriskpatterns.Pattern2Activity"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <EditText
+        android:id="@+id/et_pattern"
+        android:layout_width="239dp"
+        android:layout_height="78dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:contextClickable="false"/>
+
+    <EditText
+        android:id="@+id/et_code"
+        android:layout_width="264dp"
+        android:layout_height="367dp"
+        android:layout_marginTop="8dp"
+        android:contextClickable="false"
+        android:ems="10"
+        android:inputType="none"
+        app:layout_constraintTop_toBottomOf="@+id/et_pattern"
+        tools:layout_editor_absoluteX="60dp" />
+
+
 
 </android.support.constraint.ConstraintLayout>

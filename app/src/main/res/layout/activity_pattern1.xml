@@ -8,19 +8,26 @@
 
     <EditText
         android:id="@+id/et_pattern"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="237dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="44dp"
+        android:editable="false"
         android:ems="10"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="68dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/et_code"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="262dp"
+        android:layout_height="313dp"
+        android:layout_marginTop="168dp"
         android:ems="10"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="203dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

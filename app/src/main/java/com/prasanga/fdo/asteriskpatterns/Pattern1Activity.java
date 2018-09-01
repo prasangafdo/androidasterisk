@@ -12,7 +12,13 @@ public class Pattern1Activity extends AppCompatActivity {
         setContentView(R.layout.activity_pattern1);
         getSupportActionBar().setTitle("Pattern #1");
 
-        String a = " *\n" + "**\n" + "***";
+        String a = "*\n" + "**\n" + "***";
+        String code =" for (int i = 0; i<5;i++){\n" +
+                " \n               for (int j = 0; j<i; j++){\n" +
+                " \n                System.out.print(\"*\");\n" +
+                " \n               }\n" +
+                " \n               System.out.println();\n" +
+                "     }";
 
         EditText et_pattern, et_code;
 
@@ -20,5 +26,9 @@ public class Pattern1Activity extends AppCompatActivity {
         et_code = findViewById(R.id.et_code);
 
         et_pattern.setText(a.toString());
+        et_code.setText(code.toString());
+
+        et_pattern.setKeyListener(null);//Making touch useless
+        et_code.setKeyListener(null);
     }
 }
