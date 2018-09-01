@@ -11,12 +11,14 @@
         android:layout_width="237dp"
         android:layout_height="91dp"
         android:layout_marginTop="44dp"
+        android:editable="false"
         android:ems="10"
         android:inputType="textMultiLine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/et_code"

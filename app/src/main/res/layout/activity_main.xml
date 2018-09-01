@@ -11,8 +11,8 @@
         android:id="@+id/btn_pattern1"
         android:layout_width="150dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="50dp"
-        android:layout_marginTop="105dp"
+        android:layout_marginBottom="35dp"
+        android:layout_marginTop="71dp"
         android:text="Pattern #1"
         app:layout_constraintBottom_toTopOf="@+id/btn_pattern2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/btn_pattern2"
         android:layout_width="150dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="56dp"
+        android:layout_marginBottom="29dp"
         android:text="Pattern #2"
         app:layout_constraintBottom_toTopOf="@+id/btn_pattern3"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,13 +31,35 @@
         app:layout_constraintTop_toBottomOf="@+id/btn_pattern1" />
 
     <Button
+        android:id="@+id/btn_pattern4"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="56dp"
+        android:text="Pattern #4"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pattern3" />
+
+    <Button
         android:id="@+id/btn_pattern3"
         android:layout_width="150dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="156dp"
+        android:layout_marginBottom="25dp"
         android:text="Pattern #3"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btn_pattern4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_pattern2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:layout_marginStart="77dp"
+        android:text="Developed by Prasanga Fernando"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_pattern4" />
 </android.support.constraint.ConstraintLayout>

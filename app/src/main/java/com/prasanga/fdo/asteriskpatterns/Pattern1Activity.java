@@ -27,5 +27,8 @@ public class Pattern1Activity extends AppCompatActivity {
 
         et_pattern.setText(a.toString());
         et_code.setText(code.toString());
+
+        et_pattern.setKeyListener(null);//Making touch useless
+        et_code.setKeyListener(null);
     }
 }
